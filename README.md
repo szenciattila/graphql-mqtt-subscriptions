@@ -2,6 +2,8 @@
 
 [![Greenkeeper badge](https://badges.greenkeeper.io/davidyaha/graphql-mqtt-subscriptions.svg)](https://greenkeeper.io/)
 
+This fork return Object payload instead of string, which contains MQTT topic.
+
 This package implements the AsyncIterator Interface and PubSubEngine Interface from the [graphql-subscriptions](https://github.com/apollographql/graphql-subscriptions) package. 
 It allows you to connect your subscriptions manager to an MQTT enabled Pub Sub broker to support 
 
